@@ -29,6 +29,30 @@ widgets are added here
 m.mainloop()
 
 ```
+##Description
+
+Description of Project Files
+Below are the project files you will get once you download and extract the Library project:
+
+main.py – which does function call to all other python files
+
+AddBook.py – To add the book
+
+ViewBooks.py – To View the list of books in the library
+
+DeleteBook.py – To Delete a book from library
+
+IssueBook.py – To Issue a book from library
+
+ReturnBook.py – To Return a book to the library
+
+## Create Tables
+
+create database db;
+
+create table books(bid varchar(20) primary key, title varchar(30), author varchar(30), status varchar(30));
+
+create table books_issued(bid varchar(20) primary key, issuedto varchar(30));
 
 ## Contributing
 

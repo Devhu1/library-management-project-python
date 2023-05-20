@@ -1,0 +1,42 @@
+# library-management-project-python
+A library management system keeps track of the books present in the library. It is an important piece of software which is a must at schools and colleges. We will build a library management system using Tkinter to make it interactive.
+
+
+# Tkinter
+
+Python offers various utilities to design the GUI wiz Graphical User Interface, and one such utility is Tkinter which is most commonly used. It is indeed one of the fastest and easiest ways to build GUI applications. Moreover, Tkinter is cross-platform, hence the same code works on macOS, Windows, and Linux.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Tkinter.
+
+```bash
+pip install Tk
+
+pip install pillow
+
+pip install pymysql
+```
+
+## Usage
+
+```python
+import tkinter
+m = tkinter.Tk()
+'''
+widgets are added here
+'''
+m.mainloop()
+
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
